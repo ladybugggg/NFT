@@ -218,6 +218,7 @@ body .box{
         height: fit-content;
         top: 20px;
         left: 0px;
+    }
     
 
 
@@ -234,7 +235,7 @@ body .box{
     
 
     header .discover h1{
-        font-size: 30px;
+        font-size: 22px;
         line-height: 36px;
         text-align: start;
         }
@@ -323,14 +324,5 @@ body .box{
         header div ul li{
             font-size: 12px;
         }
-        
-        
-        
-
-
-        
-        
-        
-        
+    }      
     
-}
