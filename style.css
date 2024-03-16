@@ -212,7 +212,7 @@ body .box{
 @media (max-width:576px) {
 
     header .content-box{
-        padding: 0 0;
+        padding: 20px 10px;
     }
     
 
