@@ -211,8 +211,15 @@ body .box{
 
 @media (max-width:576px) {
 
+    header .discover{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
     header .discover h1{
-        font-size: 18px;
+        font-size: 30px;
         line-height: 36px;
         text-align: center;
         }
