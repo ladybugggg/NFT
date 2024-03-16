@@ -212,12 +212,8 @@ body .box{
 @media (max-width:576px) {
 
     header{
-        background-image: url(./imgs/image\ 77.png);
-        background-size: cover;
-        width: 100%;
-        height: fit-content;
-        top: 20px;
-        left: 0px;
+        background-image: none;
+        
     }
     
 
