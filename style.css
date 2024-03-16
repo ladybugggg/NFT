@@ -211,6 +211,11 @@ body .box{
 
 @media (max-width:576px) {
 
+    header .content-box{
+        padding: 80px 50px 70px 50px;
+    }
+    
+
     header .discover{
         display: flex;
         flex-direction: column;
