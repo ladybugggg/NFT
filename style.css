@@ -221,7 +221,7 @@ body .box{
     header .discover h1{
         font-size: 30px;
         line-height: 36px;
-        text-align: center;
+        text-align: start;
         }
 
         header .discover p{
@@ -240,7 +240,6 @@ body .box{
 
 
         header .stats{
-            align-items: center;
             width: 100%;
             height: auto;
             align-items: start;
