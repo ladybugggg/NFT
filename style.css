@@ -169,3 +169,123 @@ body .client-logo{
 }
 
 
+body .how-works, .learn-more{
+    padding: 100px 120px 0 120px;
+
+
+}
+
+body .how-works h2{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    color: white;
+    text-wrap: nowrap;
+
+    
+}
+
+body .how-works p, .learn-more p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: white;
+
+}
+
+body .box{
+    padding-right: 120px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width:576px) {
+
+    header .discover h1{
+        font-size: 28px;
+        line-height: 36px;
+        text-align: start;
+        }
+
+        header .discover p{
+            font-size: 12px;
+            text-align: start;
+            line-height: 16px;
+        }
+
+        header .cta-explore{
+            padding: 10px 20px;
+        }
+        
+        header .cta-create{
+            padding: 10px 20px;
+        }
+
+
+        header .stats{
+            align-items: center;
+            width: 80%;
+            height: auto;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 5px;
+
+        }
+
+
+        header .stat-item{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1rem;
+        }
+
+
+
+        header .stat-item h3{
+            font-size: 20px;
+            line-height: 20px;
+            font-weight: 700;
+        
+        }
+        header .stat-item p{
+            font-size: 10px;
+            line-height: 14px;
+            font-weight: 400;
+        }
+
+
+        body .client-logo{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            padding: 10px 10px;
+        
+        }
+        
+        
+
+
+        
+        
+        
+        
+    
+}
