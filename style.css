@@ -544,3 +544,16 @@ list-style: none;
 }
 
 }
+
+@media (max-width: 612px) {
+    .subscribe .div1 aside:nth-child(1) input{
+       width: 300px;
+    
+}
+    .subscribe .div1 {
+        margin: 7vw 20vw;
+    }
+    .footer1 .footer-links div {
+        margin-left: 3rem;
+    }
+}
