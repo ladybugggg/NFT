@@ -393,7 +393,7 @@ body .rectangle p{
         }
 
         body .how-worksbox{
-            padding: 20px 90px;
+            padding: 20px 90px !important;
         }
         
         
