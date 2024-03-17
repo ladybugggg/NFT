@@ -199,7 +199,58 @@ body .box{
 
 }
 
+body .how-works{
+    color: white;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
 
+body .learn-more a{
+    text-decoration: none;
+    color: white;
+}
+
+body .learnmore-btn{
+    border: none;
+    background: linear-gradient(to right, #6477DD, #C753C1, #DC1DC3);
+    padding: 12px 24px;
+
+}
+
+body .box1, .box2{
+    padding-bottom: 5px;
+    padding-right: 120px;
+}
+
+body .rectangle{
+    background-image: url(./imgs/Rectangle\ 52.png);
+    position: relative;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 90px 30px;
+
+}
+
+body .rectangle img{
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    width: 4vw;
+
+}
+
+body .rectangle h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+body .rectangle p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
 
 
 
@@ -211,8 +262,27 @@ body .box{
 
 @media (max-width:576px) {
 
+    header{
+        background-image: none;
+        
+    }
+    
+
+
+    header .content-box{
+        padding: 80px 90px 70px 90px;
+    }
+    
+
+    header .discover{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
     header .discover h1{
-        font-size: 28px;
+        font-size: 22px;
         line-height: 36px;
         text-align: start;
         }
@@ -233,10 +303,9 @@ body .box{
 
 
         header .stats{
-            align-items: center;
-            width: 80%;
+            width: 100%;
             height: auto;
-            align-items: center;
+            align-items: start;
             gap: 5px;
             margin-bottom: 5px;
 
@@ -244,7 +313,7 @@ body .box{
 
 
         header .stat-item{
-            width: 100%;
+            width: 90%;
             height: fit-content;
             display: flex;
             flex-direction: column;
@@ -272,20 +341,35 @@ body .box{
 
 
         body .client-logo{
-            width: 100%;
+            width: 90%;
             justify-content: center;
             align-items: center;
             height: 10vh;
             padding: 10px 10px;
+        }
+
+
+        .navitem1{
+            width: 60%;
+            justify-content: flex-start;
+            gap: 5px;
         
         }
         
+        .navitem2{
+            width: 40%;
+            justify-content: flex-end;
+            gap: 5px;
         
+        }
 
 
+        header nav .signup-button{
+            padding: 5px 10px;        
+        }
         
-        
-        
-        
+        header div ul li{
+            font-size: 12px;
+        }
+    }      
     
-}
