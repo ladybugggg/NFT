@@ -322,3 +322,136 @@ body .box{
         }
     }      
     
+
+
+
+
+
+.subscribe {
+    background-color: #110229;
+    width: 100vh;
+    
+}
+
+.subscribe .div1 {
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    height: 27vw;
+    background: #FFFFFF1A;
+    margin: 5vw 9vw;
+    
+
+}
+.subscribe .div1 aside:nth-child(1) {
+    padding: 5vw 3vw;
+}
+.subscribe .div1 aside:nth-child(1) h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+.subscribe .div1 aside:nth-child(1) p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #DEDEDE;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.subscribe .div1 aside:nth-child(1) input{
+    width: 480px;
+    border: none;
+    background : rgba(255, 255, 255, 0.3);
+    padding: 10px 10px;
+    outline: none;
+    margin-top: 20px;
+}
+.subscribe .div1 aside:nth-child(1) input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 1vw;
+
+   
+
+}
+.subscribe .div1 aside:nth-child(1) button {
+      width: 149px;
+      padding: 10px 10px;
+      border: none;
+      background: linear-gradient(93.95deg, #6A76DB 0.87%, #B65AC6 49.01%, #D924C3 99.65%);
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 25px;
+      color: #FFFFFF;
+
+}
+.subscribe .div1 aside:nth-child(2) {
+    position: relative;
+}
+.subscribe .div1 aside:nth-child(2) img {
+    width: 338px;
+    margin-right: 80px;
+    height: 342px;
+    
+
+    
+}
+
+.footer1 {
+    background: #110229;
+     width: 100vh;
+}
+.footer1 .footer-links {
+display: flex;
+flex-direction: row;
+padding: 7vw 2vw;
+
+}
+.footer1 .footer-links div {
+    width: 25%;
+    margin-left: 8rem;
+
+}
+
+
+.footer1 .footer-links ul {
+list-style: none;
+}
+
+.footer1 .footer-links div ul li a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: left;
+      color: #DEDEDE;
+      line-height: 3vw;
+      
+
+
+}
+.footer1 .footer-links div ul h4 a {
+      font-family: DM Sans;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 31px;
+      text-align: left;
+      color: #FFFFFF;
+      
+
+ 
+}
+.footer1 .footer-links div p {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 400;
+      color: #DEDEDE;
+      
+      
+}
+.footer1 .footer-links div img {
+    margin-left: 0.2rem;
+}
