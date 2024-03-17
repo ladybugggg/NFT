@@ -522,7 +522,6 @@ list-style: none;
  
 }
 .footer1 .footer-links div p {
-      font-family: Open Sans;
       font-size: 16px;
       font-weight: 400;
       color: #DEDEDE;
@@ -531,4 +530,17 @@ list-style: none;
 }
 .footer1 .footer-links div img {
     margin-left: 0.2rem;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .subscribe .div1 {
+        height: fit-content;
+}
+.footer1 .footer-links div {
+    margin-left: 5rem;
+}
+
 }
