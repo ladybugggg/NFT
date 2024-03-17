@@ -371,5 +371,27 @@ body .rectangle p{
         header div ul li{
             font-size: 12px;
         }
+
+
+        body .how-works{
+            font-size: 22px;
+            line-height: 20px;
+            text-align: center;
+        }
+
+
+        body .rectangle h4{
+            font-size: 18px;
+            line-height: 16px;
+            text-align: center;
+        }
+        
+        body .rectangle p{
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+        }
+        
+        
     }      
     
