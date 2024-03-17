@@ -391,6 +391,10 @@ body .rectangle p{
             line-height: 15px;
             text-align: center;
         }
+
+        body .how-worksbox{
+            padding: 20px 90px;
+        }
         
         
     }      
