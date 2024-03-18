@@ -414,11 +414,17 @@ body .rectangle p{
             font-size: 12px;
         }
 
+        body .client-logo{
+            padding: 40px 80px;
+
+        }
 
         body .how-works{
             font-size: 22px;
             line-height: 20px;
             text-align: center;
+            padding: 40px 80px;
+
         }
 
 
