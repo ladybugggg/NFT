@@ -171,6 +171,7 @@ body .client-logo{
     align-items: center;
     height: 30vh;
     padding: 60px 120px;
+    gap: 5rem;
 }
 
 body .amazon-logo{
@@ -407,7 +408,7 @@ body .rectangle p{
 
         body .client-logo{
             flex-direction: column;
-            padding: 100px 0;
+            padding: 100px 90px 70px 90px;
             gap: 2vh;
 
         }
