@@ -27,7 +27,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-right: 20px;
+    /* padding-right: 20px; */
+    padding: 45px 120px;
 }
 
 .navitem1{
@@ -35,7 +36,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
+    /* align-items: center; */
     list-style: none;
     gap: 1.5rem;
 
@@ -45,8 +46,8 @@ header{
     width: 30%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    /* align-items: center; */
     list-style: none;
     gap: 1.5rem;
 
@@ -55,7 +56,7 @@ header{
 header nav .signup-button{
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 6px 24px;
     background: linear-gradient(to right, #6477DD, #C753C1, #DC1DC3);
 
 }
@@ -66,11 +67,16 @@ nav div ul li{
 }
 
 header .content-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding: 80px 0 70px 120px;
 }
 
 
 header .discover{
+    display: flex;
+    flex-direction: column;
     width: 40%;
     padding-bottom: 1rem;
 }
@@ -165,7 +171,43 @@ body .client-logo{
     align-items: center;
     height: 30vh;
     padding: 60px 120px;
+}
 
+body .amazon-logo{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: fit-content;
+}
+body .slack-logo{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: fit-content;
+}
+body .paradigm-logo{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: fit-content;
+}
+body .chase-logo{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: fit-content;
+}
+body .binance-logo{
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    height: fit-content;
+}
+body .amazon-logo{
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    height: fit-content;
 }
 
 
