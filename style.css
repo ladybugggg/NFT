@@ -415,8 +415,39 @@ body .rectangle p{
         }
 
         body .client-logo{
-            padding: 40px 80px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            padding: 40px 40px;
+            gap: 2vh;
 
+        }
+
+        body .amazon-logo{
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
+        }
+        body .slack-logo{
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
+        }
+        body .paradigm-logo{
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
+        }
+        body .chase-logo{
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
+        }
+        body .binance-logo{
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
         }
 
         body .how-works{
