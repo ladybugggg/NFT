@@ -417,7 +417,6 @@ body .rectangle p{
         body .client-logo{
             display: flex;
             flex-direction: column;
-            width: 100%;
             justify-content: center;
             padding: 120px 40px;
             gap: 2vh;
