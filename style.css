@@ -415,12 +415,14 @@ body .rectangle p{
         }
 
         body .client-logo{
-            display: flex;
             flex-direction: column;
-            justify-content: center;
-            padding: 120px 40px;
+            padding: 70px 80px;
             gap: 2vh;
 
+        }
+
+        body .client-logo img{
+            width: 20vw;
         }
 
         
