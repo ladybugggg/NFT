@@ -408,7 +408,7 @@ body .rectangle p{
 
         body .client-logo{
             flex-direction: column;
-            padding: 100px 90px 70px 90px;
+            padding: 100px 90px 70px 50px;
             gap: 2vh;
 
         }
@@ -421,11 +421,9 @@ body .rectangle p{
         body .how-worksbox{
             display: flex;
             flex-direction: column;
-            width: 100%;
-            font-size: 22px;
-            line-height: 20px;
-            text-align: center;
-            padding: 40px 80px;
+            width: 100vw;
+            padding: 80px 90px 70px 90px;
+
 
         }
 
