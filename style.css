@@ -382,15 +382,6 @@ body .rectangle p{
         }
 
 
-        body .client-logo{
-            width: 90%;
-            justify-content: center;
-            align-items: center;
-            height: 10vh;
-            padding: 10px 10px;
-        }
-
-
         .navitem1{
             width: 60%;
             justify-content: flex-start;
@@ -416,17 +407,20 @@ body .rectangle p{
 
         body .client-logo{
             flex-direction: column;
-            padding: 70px 80px;
+            padding: 100px 0;
             gap: 2vh;
 
         }
 
         body .client-logo img{
-            width: 20vw;
+            width: 40vw;
         }
 
         
-        body .how-works{
+        body .how-worksbox{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
             font-size: 22px;
             line-height: 20px;
             text-align: center;
@@ -447,9 +441,6 @@ body .rectangle p{
             text-align: center;
         }
 
-        body .how-worksbox{
-            padding: 20px 90px !important;
-        }
         
         
     }      
