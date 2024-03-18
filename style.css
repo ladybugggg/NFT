@@ -535,21 +535,33 @@ body .rectangle p{
 
 .footer1 {
     background: #110229;
-     width: 100vh;
+     width: 100%;
+
 }
 .footer1 .footer-links {
 display: flex;
 flex-direction: row;
-padding: 7vw 2vw;
+padding: 5vw 1vw;
  width: 100%;
+ margin-left: 40px;
 
 }
-.footer1 .footer-links div {
-    width: 25%;
-    margin-left: 8rem;
+.footer1 .footer-links .marketplace {
+    width: 22%;
+    
 
 }
-
+.footer1 .footer-links .resources {
+    width: 22%;
+}
+.footer1 .footer-links .community {
+      width: 22%;
+}
+.footer1 .footer-links .newsletter {
+      width: 30%;
+      padding: 0 10px;
+      margin-left: 100px;
+}
 
 .footer1 .footer-links ul {
 list-style: none;
@@ -583,9 +595,20 @@ list-style: none;
       color: #DEDEDE;
       text-wrap: wrap;
 }
-.footer1 .footer-links div img {
-    margin-left: 0.5rem;
+.footer1 .footer-links .images {
+    padding-left: 20px;
+    padding-top: 10px;
+    
 }
+.footer1 .footer-links .images img {
+    margin-left: 1rem;
+}
+
+
+
+
+
+
 
 
 
